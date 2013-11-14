@@ -1,4 +1,4 @@
-minerunner
+Mine Runner
 ==========
 
 A simple game in Haskell and Gloss
