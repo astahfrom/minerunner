@@ -9,17 +9,17 @@ A simple game in Haskell and Gloss
 You control a little black creature that roams in a white world where the ends are mysteriously connected.
 Every time you press the arrow keys it changes direction, naively following your commands.
 
-The little creature is hungry and a giant number in the center, painted on to the ground in a strange aliased way, increases every time the little critter eats and apple.
-You seem to get 1 point every time he eats a red apple and 3 for the green ones.
+The little creature is hungry and a giant number in the center, painted on to the ground in a strange aliased way, increases every time the critter eats an apple.
+You seem to get 1 point every time it eats a red apple and 3 for the green ones.
 The latter must be more delicious.
 
 After chasing a few apples you notice something strange.
-The little bugger seems to be leaving squares behind him.
+The little bugger seems to be leaving squares behind it.
 They start out light, but get darker, when?
-After observing him for a bit you conclude, that it happens when you turn.
+After observing it for a bit you conclude, that it happens when you turn.
 The existing squares get darker and new ones are left behind by the hungry fellow.
 
-It can go through them when they're light, but after a couple of turns they get to dark to pass and you lose your points when hitting them. Damn.
+It can go through them when they're light, but after a couple of turns they get too dark to pass and you lose your points when hitting them. Damn.
 You better avoid turning too much then.
 
 Now you notice something new.
