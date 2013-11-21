@@ -17,7 +17,7 @@ After chasing a few apples you notice something strange.
 The little bugger seems to be leaving squares behind him.
 They start out light, but get darker, when?
 After observing him for a bit you conclude, that it happens when you turn.
-The existing squares get darker and new ones are left behind by the hungry fellow.
+The existing squares get darker and new ones are left behind, albeit first invisible ones, by the hungry fellow.
 
 It can go through them when they're light, but after a couple of turns they get to dark to pass and you lose your points when hitting them. Damn.
 You better avoid turning too much then.

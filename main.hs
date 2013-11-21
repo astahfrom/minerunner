@@ -53,7 +53,7 @@ draw (World { player = (Player { pPos = (px,py), newDir = dir, score = sco })
   = pictures [ translate (-50 * (fromIntegral . length $ show sco)) (-30) . text $ show sco
              , pictures $ zipWith
                (\n (x,y) -> color (greyN n) $ rect x y mineSize mineSize)
-               ([0.75, 0.5, 0.25] ++ repeat 0) m -- colour the first three mines grey
+               ([1, 0.67, 0.5] ++ repeat 0) m -- colour the first mine white, the next two grey
              , translate a b $ drawApple c
              , translate px py $ drawPlayer dir
              ]
